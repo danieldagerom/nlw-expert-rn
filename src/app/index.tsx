@@ -1,11 +1,12 @@
-import { Text, View, StyleSheet } from "react-native"
+import { Text, View } from "react-native"
+
+import { Header } from "@/components/header"
+
 
 export default function Home(){
     return (
-        <View>
-            <Text>
-                Hello World k
-            </Text>
+        <View className="flex-1 pt-8">
+            <Header />
         </View>
     )
 }
